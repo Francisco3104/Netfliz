@@ -1,0 +1,183 @@
+input {
+    border:0;
+    outline:0;
+}
+input:focus {outline:none!important;}
+button {border:0;outline:0;}
+button:focus {outline:none!important;}
+body{
+    background-color: black;
+    height: auto;
+}
+form button{
+    background-color: gray;
+    margin-right: 10px;
+    margin-top: 8px ;
+    margin-left: 5px;
+    height: auto;
+    width: 4vh;
+}
+.playbutton{
+padding-left: 90%;
+}
+.fa-microphone{
+    font-size: 3vh !important;
+
+}
+.footer{
+    background-color: rgb(53, 51, 51);
+    padding: 10px 30px;
+}
+.footer .social{
+text-align: center;
+padding-bottom: 5px;
+color: white;
+width: 100%;
+height: 60px;
+display: inline-block;
+border-radius: 20px;
+margin: 0px 10px;
+}
+a{
+    margin-right: 15%;
+    font-size: xx-large;
+    color: white;
+}
+.lastone{
+    margin-right: 0px;
+}
+form input{
+    background-color: gray;
+    height: 2.5vh; 
+    width: 30vh;
+    font-size: 2.5vh;
+}
+::placeholder {
+    color: rgb(24, 21, 21);
+    opacity: 0.5;
+    font-size: 100%;
+  }
+  .searchbar{
+    display: flex;
+    height: 4vh;
+    width: 99%;
+    margin-top: 50px;
+    background-color: gray;
+    flex-wrap: wrap;
+    align-items: center;
+    float: left;
+    flex-direction: row;
+    border-radius: 5px;
+  }
+  .microphone{
+margin: auto;
+margin-top: 10px;
+margin-right: 15px;
+  }
+
+  .gray-display{
+    height: 110px;
+    background: linear-gradient(to left, rgb(40, 40, 40) 0%, rgb(40, 39, 39) 80%, darkgray 80%, darkgray 100%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+  }
+  .darks{
+    padding-left: 340%;
+    font-size: xx-large;
+  }
+.popular{
+    height: 4vh;
+    width: 100%;
+    font-size: 300%;
+    color: white;
+    clear: both;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-left: 10px;
+    margin: 1vh 0px;
+    border-radius: 5px;
+}
+.series{
+    height: 40px;
+    width: 100%;
+    font-size: large;
+    color: white;
+    clear: both;
+    background-color: gray;
+    display: none;
+    justify-content: left;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.graygrid{
+    display: none;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 5px;
+    background-color: lightgrey;
+}
+@media only screen and (min-width: 1023px) {
+.searchbar{
+    display: flex;
+    height: 35px;
+    width: 35%;
+    margin: 10px;
+    background-color: gray;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    float: left;
+    border-radius: 5px;
+}
+.popular{
+    height: 40px;
+    width: 100%;
+    font-size: large;
+    color: white;
+    clear: both;
+    display: none;
+    justify-content: left;
+    text-align: center;
+    padding-left: 10px;
+}
+.series{
+    height: 20px;
+    width: auto;
+    font-size: large;
+    color: white;
+    clear: both;
+    background-color: gray;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.gray-display{
+    height: 110px;
+    background: linear-gradient(to left, rgb(40, 40, 40) 0%, rgb(40, 39, 39) 80%, darkgray 80%, darkgray 100%);
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+  }
+.graygrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: black;
+    margin-top: 20px;
+}
+.graygrid > div{
+    color: lightgray;
+    background-color: lightgray;
+    padding: 60px 20px;
+}
+}
